@@ -2,6 +2,12 @@
 
 PostgreSQL のソースコードをビルドし、意図的にバグを仕込んで `gdb` で解析するまでの手順書です。
 
+docker 立ち上げ方
+ ```bash
+docker image build -t pg-test .
+docker container run -it --name pg-test --cap-add=SYS_PTRACE --security-opt seccomp=unconfined pg-test
+```
+
 ---
 
 ## 1. 公式ドキュメント
