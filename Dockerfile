@@ -4,7 +4,7 @@ FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # 1. 必要なパッケージのインストール
-# Postgresのビルド依存 + 開発ツール(neovim, git, tmux, gdb, ripgrep等)
+# Postgresのビルド依存 + 開発ツール (git, tmux, gdb, ripgrep等)
 RUN apt-get update && apt-get install -y \
     build-essential \
     libreadline-dev \
@@ -20,7 +20,6 @@ RUN apt-get update && apt-get install -y \
     wget \
     gdb \
     vim \
-    neovim \
     tmux \
     ripgrep \
     sudo \
