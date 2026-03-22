@@ -8,7 +8,7 @@ PostgreSQL のソースコードをビルドし、意図的にバグを仕込ん
 
 インストールの詳細な流れについては、以下の公式ドキュメントを参照してください。
 
-* https://www.postgresql.jp/document/16/html/install-make.html
+* [https://www.postgresql.jp/document/16/html/install-make.html](https://www.postgresql.jp/document/16/html/installation.html)
 
 ---
 
