@@ -14,6 +14,10 @@ PostgreSQL のソースコードをビルドし、意図的にバグを仕込ん
 
 ## 2. ビルド・インストール手順
 
+```bash
+git clone https://github.com/postgres/postgres
+```
+
 ### ソースの構成（configure）
 
 デバッグシンボルを有効にし、最適化を無効化した状態で `Makefile` を作成します。
